@@ -1,11 +1,9 @@
-name: clase32  # Nombre del entorno
+name: clase34  # Nombre del entorno
 channels:
   - defaults  # Canal predeterminado
 dependencies:
-  - python=3.9  # Versión de Python
-  - pandas=1.5.3  # Versión de pandas
-  - numpy=1.24.2  # Versión de numpy
-  - matplotlib=3.7.1  # Versión de matplotlib
-  - pip  # Agregar pip para instalar paquetes con pip si es necesario
-  - pip:
-      - time  # Paquete 'time' se refiere al módulo estándar, no es necesario incluirlo
+  - python=3.12.7  # Versión de Python
+  - pandas=2.2.3  # Versión de pandas
+  - numpy=2.2.2  # Versión de numpy
+  - matplotlib=3.10  # Versión de matplotlib
+  - pip=25.0  # Agregar pip para instalar paquetes con pip si es necesario
